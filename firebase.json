@@ -1,0 +1,9 @@
+{
+  "firebase": "fomo-live",
+  "public": ".",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}

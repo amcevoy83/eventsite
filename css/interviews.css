@@ -1,0 +1,51 @@
+#interviews_body{
+	display: flex;
+	flex-direction: row;
+	margin: 0px auto;
+		margin-top: 40px;
+	padding: 0 20px;
+}
+#maincontainer{
+margin-top: 0px;
+
+}
+.interview{
+	margin: 10px;
+	padding: 20px;
+	border: 1px solid rgba(255,255,255,0.3);
+}
+
+.interview img{
+	max-width: 100%;
+	max-height: 250px;
+	border: 1px solid rgba(255,255,255,0.2);
+}
+
+.intro{
+	font-weight: bold;
+	padding: 40px 0 30px 40px;
+	text-shadow: 1px 1px #555;
+
+}
+h1{
+	font-size: 1.6em;
+	color: #fff;
+	margin: 15px 0 10px 0;
+	font-weight: bold;
+	border-bottom: 1px solid rgba(255,255,255,0.5);
+	padding-bottom: 15px;
+	margin-bottom: 25px;
+}
+
+p{
+	color: #fff;
+	line-height: 1.3em;
+	padding-bottom: 20px;
+}
+
+h4{
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #EF922A;
+	margin: 10px 0;
+}

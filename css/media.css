@@ -1,0 +1,158 @@
+@media screen and (max-width: 780px){
+
+#logo_circle{
+	left: 7%;
+	top: 10px;
+	padding:5px 0 0 0px;
+	text-align: left;
+	font-size: 0.9em;
+	background: none; 
+	border: none ;
+
+}
+
+.topbar{
+	height: 50px;
+	margin: 0;
+	top:0;
+}
+
+.carousel{
+	position: relative;
+	top: 0;
+	z-index: 0;
+	display: block;
+	margin: 0;
+
+	}
+
+.carousel img{
+	min-height: 200px;
+	margin-top: 0px;
+}
+
+#showMenu{
+	position: fixed;
+	z-index: 5000;
+}
+
+#menuNav{
+	float: right;
+	margin: -5px 10px 0 10px;
+	border: none;
+	position: fixed;
+	right: 0;
+	font-size: 1.8em;
+	background-color: rgba(13,6,25,0.6);
+	border: 1px solid rgba(255,255,255,0.2);
+}
+#logo_text{
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.7em;
+}
+.home-layout-rightcol{
+	display:none;
+}
+.feature_article{
+
+		margin: 2px;
+		padding: 5px;
+		}
+
+.onthisweek, .recommend, .nearme, .free, .family, .festival{
+	max-width: 300px;
+	height: 250px;
+	margin: 5px;
+	margin: 0 auto;
+}
+
+.intro{
+	font-size: 1.2em;
+	margin-left: 10px;
+}
+
+.listItem{
+	padding: 15px;
+}
+
+
+#review_left_column{
+	flex-direction: column;
+}
+
+
+.reviewbox{
+	padding: 5px;
+	margin: 5px 5px 15px 5px;
+	flex-direction: column;
+}
+
+.reviewbox .imgbox{
+	width: 100%;
+	height: 170px;
+	margin-right: 5px;
+	min-width: 100px;
+	border: 1px solid rgba(255,255,255,0.4);
+	overflow: hidden;
+}
+
+.reviewbox img{
+	width: 100%;
+}
+
+#interviews_body{
+	flex-direction: column;
+
+}
+
+
+}
+
+
+@media screen and (max-width: 1190px){
+
+#showMenu{
+	padding: 5px;
+	width: auto;
+	right: 10px;
+	top:30px;
+	margin-right: 62px;
+	z-index: 1000;
+	background-color: rgba(13,6,25,0.8);
+}
+
+#showMenu nav a{
+
+	font-size: 1.2em;
+	padding: 7px 20px;
+	margin: 5px;
+	display:block;
+}
+
+}
+
+@media screen and (max-width: 480px){
+
+#showMenu{
+	padding: 5px;
+	width: 30%;
+	right: 0px;
+	top: 0px;
+	margin-right: 50px;
+	background-color: rgba(13,6,25,0.8);
+	display: fixed;
+}
+#showMenu nav a{
+	color: #fff;
+	border: 1px solid rgba(255,255,255,0.2);
+	text-decoration: none;
+	font-size: 1em;
+	padding: 7px 5px;
+	margin: 5px;
+}
+.onthisweek, .recommend, .nearme, .free, .family, .festival{
+	width: 260px;
+
+}
+}
